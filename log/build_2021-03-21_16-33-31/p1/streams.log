@@ -1,0 +1,24 @@
+[0.169s] Invoking command in '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/p1': PYTHONPATH=/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/p1 build --build-base /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build install --prefix /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1 --record /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/install.log --single-version-externally-managed
+[0.306s] running egg_info
+[0.307s] writing ../build/p1/p1.egg-info/PKG-INFO
+[0.307s] writing dependency_links to ../build/p1/p1.egg-info/dependency_links.txt
+[0.307s] writing entry points to ../build/p1/p1.egg-info/entry_points.txt
+[0.307s] writing requirements to ../build/p1/p1.egg-info/requires.txt
+[0.307s] writing top-level names to ../build/p1/p1.egg-info/top_level.txt
+[0.330s] reading manifest file '../build/p1/p1.egg-info/SOURCES.txt'
+[0.331s] writing manifest file '../build/p1/p1.egg-info/SOURCES.txt'
+[0.331s] running build
+[0.331s] running build_py
+[0.331s] copying p1/controller.py -> /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build/lib/p1
+[0.331s] running install
+[0.331s] running install_lib
+[0.332s] copying /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build/lib/p1/controller.py -> /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages/p1
+[0.332s] byte-compiling /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages/p1/controller.py to controller.cpython-38.pyc
+[0.333s] running install_data
+[0.334s] running install_egg_info
+[0.335s] removing '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages/p1-0.0.0-py3.8.egg-info' (and everything under it)
+[0.335s] Copying ../build/p1/p1.egg-info to /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages/p1-0.0.0-py3.8.egg-info
+[0.335s] running install_scripts
+[0.347s] Installing controller script to /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/p1
+[0.347s] writing list of installed files to '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/install.log'
+[0.362s] Invoked command in '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/p1' returned '0': PYTHONPATH=/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/p1 build --build-base /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build install --prefix /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1 --record /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/install.log --single-version-externally-managed

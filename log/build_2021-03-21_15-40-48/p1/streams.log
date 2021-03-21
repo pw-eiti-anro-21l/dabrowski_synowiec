@@ -1,0 +1,25 @@
+[0.211s] Invoking command in '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/p1': PYTHONPATH=/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/p1 build --build-base /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build install --prefix /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1 --record /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/install.log --single-version-externally-managed
+[0.348s] running egg_info
+[0.349s] writing ../build/p1/p1.egg-info/PKG-INFO
+[0.349s] writing dependency_links to ../build/p1/p1.egg-info/dependency_links.txt
+[0.349s] writing entry points to ../build/p1/p1.egg-info/entry_points.txt
+[0.349s] writing requirements to ../build/p1/p1.egg-info/requires.txt
+[0.349s] writing top-level names to ../build/p1/p1.egg-info/top_level.txt
+[0.375s] reading manifest file '../build/p1/p1.egg-info/SOURCES.txt'
+[0.375s] writing manifest file '../build/p1/p1.egg-info/SOURCES.txt'
+[0.376s] running build
+[0.376s] running build_py
+[0.376s] copying p1/controller.py -> /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build/lib/p1
+[0.376s] running install
+[0.377s] running install_lib
+[0.377s] copying /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build/lib/p1/controller.py -> /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages/p1
+[0.378s] byte-compiling /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages/p1/controller.py to controller.cpython-38.pyc
+[0.379s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (controller.py, line 24)
+[0.379s] running install_data
+[0.379s] running install_egg_info
+[0.380s] removing '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages/p1-0.0.0-py3.8.egg-info' (and everything under it)
+[0.380s] Copying ../build/p1/p1.egg-info to /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages/p1-0.0.0-py3.8.egg-info
+[0.381s] running install_scripts
+[0.394s] Installing controller script to /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/p1
+[0.394s] writing list of installed files to '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/install.log'
+[0.408s] Invoked command in '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/p1' returned '0': PYTHONPATH=/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/p1 build --build-base /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build install --prefix /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1 --record /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/install.log --single-version-externally-managed

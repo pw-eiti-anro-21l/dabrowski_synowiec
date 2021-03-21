@@ -1,0 +1,38 @@
+[0.176s] Invoking command in '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/p1': PYTHONPATH=/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/p1 build --build-base /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build install --prefix /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1 --record /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/install.log --single-version-externally-managed
+[0.370s] running egg_info
+[0.370s] creating ../build/p1/p1.egg-info
+[0.370s] writing ../build/p1/p1.egg-info/PKG-INFO
+[0.370s] writing dependency_links to ../build/p1/p1.egg-info/dependency_links.txt
+[0.370s] writing entry points to ../build/p1/p1.egg-info/entry_points.txt
+[0.370s] writing requirements to ../build/p1/p1.egg-info/requires.txt
+[0.370s] writing top-level names to ../build/p1/p1.egg-info/top_level.txt
+[0.385s] writing manifest file '../build/p1/p1.egg-info/SOURCES.txt'
+[0.449s] reading manifest file '../build/p1/p1.egg-info/SOURCES.txt'
+[0.449s] writing manifest file '../build/p1/p1.egg-info/SOURCES.txt'
+[0.449s] running build
+[0.449s] running build_py
+[0.449s] creating /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build
+[0.450s] creating /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build/lib
+[0.450s] creating /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build/lib/p1
+[0.450s] copying p1/controller.py -> /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build/lib/p1
+[0.450s] copying p1/__init__.py -> /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build/lib/p1
+[0.450s] running install
+[0.460s] running install_lib
+[0.462s] creating /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages/p1
+[0.462s] copying /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build/lib/p1/controller.py -> /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages/p1
+[0.462s] copying /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build/lib/p1/__init__.py -> /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages/p1
+[0.462s] byte-compiling /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages/p1/controller.py to controller.cpython-38.pyc
+[0.463s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (controller.py, line 24)
+[0.463s] byte-compiling /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages/p1/__init__.py to __init__.cpython-38.pyc
+[0.463s] running install_data
+[0.463s] creating /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/share/ament_index
+[0.463s] creating /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/share/ament_index/resource_index
+[0.464s] creating /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/share/ament_index/resource_index/packages
+[0.478s] copying resource/p1 -> /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/share/ament_index/resource_index/packages
+[0.478s] copying package.xml -> /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/share/p1
+[0.478s] running install_egg_info
+[0.486s] Copying ../build/p1/p1.egg-info to /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages/p1-0.0.0-py3.8.egg-info
+[0.487s] running install_scripts
+[0.511s] Installing controller script to /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/p1
+[0.511s] writing list of installed files to '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/install.log'
+[0.528s] Invoked command in '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/p1' returned '0': PYTHONPATH=/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/p1 build --build-base /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build install --prefix /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1 --record /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/install.log --single-version-externally-managed
