@@ -21,7 +21,8 @@ class Controller(Node):
         self.right = 'd'
         timer_period = 0.1
         self.timer = self.create_timer(timer_period, self.callback)
-
+	self.msg=Twist()
+	self.callback()
 
     def custom_params(self):
   
@@ -34,28 +35,27 @@ class Controller(Node):
     def callback(self):
 
         self.custom_params()
-  
 	with Input(keynames='curses') as input_generator:
     	for key in input_generator:
     	
-        if key == self.up:
-            self.msg.linear.x = 2.0
-            self.msg.angular.z = 0.0
+		if key == self.up
+		self.msg.linear.x = 2.0
+		self.msg.angular.z = 0.0
             
 
-        if key == self.down:
-            self.msg.linear.x = -2.0
-            self.msg.angular.z = 0.0
+		if key == self.down:
+           	self.msg.linear.x = -2.0
+           	self.msg.angular.z = 0.0
             
 
-        if key == self.right:
-            self.msg.angular.z = 0.0
-            self.msg.linear.x = 2.0
+       		if key == self.right:
+         	self.msg.angular.z = 0.0
+         	self.msg.linear.x = 2.0
             
 
-        if key == self.left:
-            self.msg.angular.z = 0.0
-            self.msg.linear.x = -2.0
+       		if key == self.left:
+		self.msg.angular.z
+		self.msg.linear.x = -2.0
             
 
         self.publisher_.publish(twist)
