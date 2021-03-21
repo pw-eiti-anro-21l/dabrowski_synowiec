@@ -19,8 +19,8 @@ class Controller(Node):
         self.down = 's'
         self.left = 'a'
         self.right = 'd'
-        timer_period = 0.1
-        self.timer = self.create_timer(timer_period, self.callback)
+        period = 0.1
+        self.timer = self.create_timer(period, self.callback)
 
 
     def custom_params(self):
