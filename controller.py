@@ -48,12 +48,12 @@ class Controller(Node):
             self.msg.angular.z = 0.0
             
 
-        if key == self.goUp:
+        if key == self.right:
             self.msg.angular.z = 0.0
             self.msg.linear.x = 2.0
             
 
-        if key == self.goDown:
+        if key == self.left:
             self.msg.angular.z = 0.0
             self.msg.linear.x = -2.0
             
