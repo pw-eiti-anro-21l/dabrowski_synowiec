@@ -50,12 +50,12 @@ class Controller(Node):
 
         if key == self.goUp:
             self.msg.angular.z = 0.0
-            self.msg.linear.x = 1.5
+            self.msg.linear.x = 2.0
             
 
         if key == self.goDown:
             self.msg.angular.z = 0.0
-            self.msg.linear.x = -1.5
+            self.msg.linear.x = -2.0
             
 
         self.publisher_.publish(twist)
