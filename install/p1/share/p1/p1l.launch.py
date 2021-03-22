@@ -16,7 +16,6 @@ def generate_launch_description():
             executable='controller',
             name='custom_controller',
             output='screen',
-            emulate_tty=True,
             parameters=[
                 {'up': 'w'},
                 {'down': 's'},
