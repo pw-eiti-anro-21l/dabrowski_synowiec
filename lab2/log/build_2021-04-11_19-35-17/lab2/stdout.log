@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating lab2.egg-info
+writing lab2.egg-info/PKG-INFO
+writing dependency_links to lab2.egg-info/dependency_links.txt
+writing entry points to lab2.egg-info/entry_points.txt
+writing requirements to lab2.egg-info/requires.txt
+writing top-level names to lab2.egg-info/top_level.txt
+writing manifest file 'lab2.egg-info/SOURCES.txt'
+reading manifest file 'lab2.egg-info/SOURCES.txt'
+writing manifest file 'lab2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pdabrow1/dev_ws/src/dabrowski_synowiec/lab2/install/lab2/lib/python3.8/site-packages/site.py
+Creating /home/pdabrow1/dev_ws/src/dabrowski_synowiec/lab2/install/lab2/lib/python3.8/site-packages/lab2.egg-link (link to .)
+Installing state_publisher script to /home/pdabrow1/dev_ws/src/dabrowski_synowiec/lab2/install/lab2/lib/lab2
+
+Installed /home/pdabrow1/dev_ws/src/dabrowski_synowiec/lab2/build/lab2
+running install_data
+creating /home/pdabrow1/dev_ws/src/dabrowski_synowiec/lab2/install/lab2/share/ament_index
+creating /home/pdabrow1/dev_ws/src/dabrowski_synowiec/lab2/install/lab2/share/ament_index/resource_index
+creating /home/pdabrow1/dev_ws/src/dabrowski_synowiec/lab2/install/lab2/share/ament_index/resource_index/packages
+copying resource/lab2 -> /home/pdabrow1/dev_ws/src/dabrowski_synowiec/lab2/install/lab2/share/ament_index/resource_index/packages
+copying package.xml -> /home/pdabrow1/dev_ws/src/dabrowski_synowiec/lab2/install/lab2/share/lab2
+copying launch/lab2.launch.py -> /home/pdabrow1/dev_ws/src/dabrowski_synowiec/lab2/install/lab2/share/lab2
+copying urdf/URDF.yaml -> /home/pdabrow1/dev_ws/src/dabrowski_synowiec/lab2/install/lab2/share/lab2
+copying urdf/myrobot.urdf.xacro.xml -> /home/pdabrow1/dev_ws/src/dabrowski_synowiec/lab2/install/lab2/share/lab2

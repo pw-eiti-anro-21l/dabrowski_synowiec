@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+
+<robot name="myrobot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<xacro:property name="params" value="${load_yaml('URDF.yaml')}"/>
+
+    <material name="blue">
+        <color rgba="0 0 0.8 1"/>
+    </material>
+
+    <material name="red">
+        <color rgba="1 0 0 1"/>
+    </material>
+
+    <material name="purple">
+        <color rgba="0.57 0 1 1"/>
+    </material>
+
+    <material name="green">
+        <color rgba="0 1 0 1"/>
+    </material>
+
+    <material name="aqua">
+        <color rgba="0 1 1 1"/>
+    </material>
+
+
+  <link name="base">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0.5"/>
+          <material name="green"/>
+            <geometry>
+                <box size="0.4 0.4 1"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="link1">
+        <visual>
+            <origin rpy="${params['i1']['l_rpy']}" xyz="${params['i1']['l_xyz']}"/>
+          <material name="red"/>
+            <geometry>
+                <cylinder radius="0.1" length="${params['i1']['l_len']}"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <joint name="base-link1" type="fixed">
+        <origin rpy="${params['i1']['j_rpy']}" xyz="${params['i1']['j_xyz']}"/>
+        <parent link="base"/>
+        <child link="link1"/>
+    </joint>
+    
+    
+    <link name="link2">
+        <visual>
+            <origin rpy="${params['i2']['l_rpy']}" xyz="${params['i2']['l_xyz']}"/>
+          <material name="blue"/>
+            <geometry>
+                <cylinder radius="0.1" length="${params['i2']['l_len']}"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <joint name="link1-link2" type="fixed">
+        <origin rpy="${params['i2']['j_rpy']}" xyz="${params['i2']['j_xyz']}"/>
+        <parent link="link1"/>
+        <child link="link2"/>
+    </joint>
+
+    <link name="link3">
+        <visual>
+            <origin rpy="${params['i3']['l_rpy']}" xyz="${params['i3']['l_xyz']}"/>
+          <material name="purple"/>
+            <geometry>
+                <cylinder radius="0.1" length="${params['i3']['l_len']}"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <joint name="link2-link3" type="fixed">
+        <origin rpy="${params['i3']['j_rpy']}" xyz="${params['i3']['j_xyz']}"/>
+        <parent link="link2"/>
+        <child link="link3"/>
+    </joint>
+    
+    <link name="tool">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+          <material name="aqua"/>
+            <geometry>
+                <box size="0.2 0.2 0.2"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <joint name="link3-tool" type="fixed">
+        <origin rpy="0 0 0" xyz="0 0 0.1"/>
+        <parent link="link3"/>
+        <child link="tool"/>
+    </joint>
+</robot>

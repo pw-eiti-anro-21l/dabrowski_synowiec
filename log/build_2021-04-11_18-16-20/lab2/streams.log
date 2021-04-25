@@ -1,0 +1,17 @@
+[0.163s] Invoking command in '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab2': PYTHONPATH=/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2 --editable --build-directory /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab2/build --no-deps install_data --install-dir /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2
+[0.314s] running develop
+[0.398s] running egg_info
+[0.398s] writing lab2.egg-info/PKG-INFO
+[0.398s] writing dependency_links to lab2.egg-info/dependency_links.txt
+[0.398s] writing entry points to lab2.egg-info/entry_points.txt
+[0.398s] writing requirements to lab2.egg-info/requires.txt
+[0.398s] writing top-level names to lab2.egg-info/top_level.txt
+[0.420s] reading manifest file 'lab2.egg-info/SOURCES.txt'
+[0.421s] writing manifest file 'lab2.egg-info/SOURCES.txt'
+[0.445s] running build_ext
+[0.445s] Creating /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2/lib/python3.8/site-packages/lab2.egg-link (link to .)
+[0.445s] Installing state_publisher script to /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2/lib/lab2
+[0.446s] 
+[0.446s] Installed /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab2
+[0.446s] running install_data
+[0.462s] Invoked command in '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab2' returned '0': PYTHONPATH=/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2 --editable --build-directory /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab2/build --no-deps install_data --install-dir /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2

@@ -17,10 +17,10 @@ def generate_launch_description():
             name='custom_controller',
             output='screen',
             parameters=[
-                {'up': 'w'},
-                {'down': 's'},
-                {'left': 'a'},
-                {'right': 'd'}
+                {'up': 't'},
+                {'down': 'g'},
+                {'left': 'f'},
+                {'right': 'h'}
             ]
         ),
     ])

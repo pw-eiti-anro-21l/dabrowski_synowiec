@@ -1,0 +1,3 @@
+[console_scripts]
+state_publisher = lab2.state_publisher:main
+

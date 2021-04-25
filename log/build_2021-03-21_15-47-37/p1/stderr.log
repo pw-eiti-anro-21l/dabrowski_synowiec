@@ -1,5 +1,0 @@
-  File "/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages/p1/controller.py", line 24
-    self.msg=Twist()
-    ^
-SyntaxError: invalid syntax
-
