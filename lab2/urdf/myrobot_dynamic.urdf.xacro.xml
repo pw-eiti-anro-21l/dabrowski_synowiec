@@ -36,17 +36,17 @@
 
     <link name="link1">
         <visual>
-            <origin rpy="${params['i1']['l_rpy']}" xyz="${params['i1']['l_xyz']}"/>
+            <origin rpy="${params['i1']['l_rpy']}" xyz="${0.5 * params['i1']['x']} 0 0"/>
           <material name="red"/>
             <geometry>
-                <cylinder radius="0.1" length="${params['i1']['l_len']}"/>
+                    <box size="${params['i1']['x']} ${params['i1']['y']} ${params['i1']['z']}"/>
             </geometry>
         </visual>
     </link>
 
     <joint name="base-link1" type="revolute">
     	<axis xyz="0 0 1" />
-        <limit effort="1000.0" lower="0" upper="3.14" velocity="0.5" />
+        <limit effort="1000.0" lower="0" upper="1.57" velocity="0.5" />
         <origin rpy="${params['i1']['j_rpy']}" xyz="${params['i1']['j_xyz']}"/>
         <parent link="base"/>
         <child link="link1"/>
@@ -55,17 +55,17 @@
     
     <link name="link2">
         <visual>
-            <origin rpy="${params['i2']['l_rpy']}" xyz="${params['i2']['l_xyz']}"/>
+            <origin rpy="${params['i2']['l_rpy']}" xyz="${0.5 * params['i2']['x']} 0 0"/>
           <material name="blue"/>
             <geometry>
-                <cylinder radius="0.1" length="${params['i2']['l_len']}"/>
+                <box size="${params['i2']['x']} ${params['i2']['y']} ${params['i2']['z']}"/>
             </geometry>
         </visual>
     </link>
 
-    <joint name="link1-link2" type="revolute">
+    <joint name="link2-link1" type="revolute">
     	<axis xyz="0 0 1" />
-        <limit effort="1000.0" lower="0" upper="3.14" velocity="0.5" />
+        <limit effort="1000.0" lower="0" upper="1.57" velocity="0.5" />
         <origin rpy="${params['i2']['j_rpy']}" xyz="${params['i2']['j_xyz']}"/>
         <parent link="link1"/>
         <child link="link2"/>
@@ -73,35 +73,19 @@
 
     <link name="link3">
         <visual>
-            <origin rpy="${params['i3']['l_rpy']}" xyz="${params['i3']['l_xyz']}"/>
+            <origin rpy="${params['i3']['l_rpy']}" xyz="0 0 ${-0.5 * params['i3']['z']}"/>
           <material name="purple"/>
             <geometry>
-                <cylinder radius="0.1" length="${params['i3']['l_len']}"/>
+                <box size="${params['i3']['x']} ${params['i3']['y']} ${params['i3']['z']}"/>
             </geometry>
         </visual>
     </link>
 
-    <joint name="link2-link3" type="revolute">
-    	<axis xyz="0 0 1" />
-        <limit effort="1000.0" lower="0" upper="3.14" velocity="0.5" />
+    <joint name="link2-link3" type="prismatic">
         <origin rpy="${params['i3']['j_rpy']}" xyz="${params['i3']['j_xyz']}"/>
+        <axis xyz="0 0 1" />
+        <limit effort="1000.0" lower="0" upper="-1" velocity="0.5" />
         <parent link="link2"/>
         <child link="link3"/>
-    </joint>
-    
-    <link name="tool">
-        <visual>
-            <origin rpy="0 0 0" xyz="0 0 0.1"/>
-          <material name="aqua"/>
-            <geometry>
-                <box size="0.2 0.2 0.2"/>
-            </geometry>
-        </visual>
-    </link>
-
-    <joint name="link3-tool" type="fixed">
-        <origin rpy="0 0 0" xyz="0 0 0"/>
-        <parent link="link3"/>
-        <child link="tool"/>
     </joint>
 </robot>

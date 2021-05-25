@@ -1,0 +1,22 @@
+[0.609s] Invoking command in '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/lab3_podejscie1': PYTHONPATH=/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab3_podejscie1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab3_podejscie1 build --build-base /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab3_podejscie1/build install --prefix /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab3_podejscie1 --record /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab3_podejscie1/install.log --single-version-externally-managed
+[0.750s] running egg_info
+[0.750s] writing ../build/lab3_podejscie1/lab3_podejscie1.egg-info/PKG-INFO
+[0.750s] writing dependency_links to ../build/lab3_podejscie1/lab3_podejscie1.egg-info/dependency_links.txt
+[0.751s] writing entry points to ../build/lab3_podejscie1/lab3_podejscie1.egg-info/entry_points.txt
+[0.751s] writing requirements to ../build/lab3_podejscie1/lab3_podejscie1.egg-info/requires.txt
+[0.751s] writing top-level names to ../build/lab3_podejscie1/lab3_podejscie1.egg-info/top_level.txt
+[0.774s] reading manifest file '../build/lab3_podejscie1/lab3_podejscie1.egg-info/SOURCES.txt'
+[0.775s] writing manifest file '../build/lab3_podejscie1/lab3_podejscie1.egg-info/SOURCES.txt'
+[0.776s] running build
+[0.776s] running build_py
+[0.776s] running install
+[0.777s] running install_lib
+[0.778s] running install_data
+[0.778s] running install_egg_info
+[0.779s] removing '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab3_podejscie1/lib/python3.8/site-packages/lab3_podejscie1-0.0.0-py3.8.egg-info' (and everything under it)
+[0.779s] Copying ../build/lab3_podejscie1/lab3_podejscie1.egg-info to /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab3_podejscie1/lib/python3.8/site-packages/lab3_podejscie1-0.0.0-py3.8.egg-info
+[0.780s] running install_scripts
+[0.792s] Installing kdl script to /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab3_podejscie1/lib/lab3_podejscie1
+[0.792s] Installing nonkdl script to /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab3_podejscie1/lib/lab3_podejscie1
+[0.792s] writing list of installed files to '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab3_podejscie1/install.log'
+[0.806s] Invoked command in '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/lab3_podejscie1' returned '0': PYTHONPATH=/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab3_podejscie1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab3_podejscie1 build --build-base /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab3_podejscie1/build install --prefix /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab3_podejscie1 --record /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab3_podejscie1/install.log --single-version-externally-managed

@@ -1,0 +1,4 @@
+[console_scripts]
+kdl = lab3_podejscie2.kdl_dkin:main
+nonkdl = lab3_podejscie2.nonkdl_dkin:main
+

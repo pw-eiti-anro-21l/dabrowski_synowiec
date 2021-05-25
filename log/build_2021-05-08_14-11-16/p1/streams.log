@@ -1,0 +1,21 @@
+[0.735s] Invoking command in '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/p1': PYTHONPATH=/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/p1 build --build-base /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build install --prefix /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1 --record /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/install.log --single-version-externally-managed
+[0.941s] running egg_info
+[0.941s] writing ../build/p1/p1.egg-info/PKG-INFO
+[0.944s] writing dependency_links to ../build/p1/p1.egg-info/dependency_links.txt
+[0.945s] writing entry points to ../build/p1/p1.egg-info/entry_points.txt
+[0.945s] writing requirements to ../build/p1/p1.egg-info/requires.txt
+[0.946s] writing top-level names to ../build/p1/p1.egg-info/top_level.txt
+[1.084s] reading manifest file '../build/p1/p1.egg-info/SOURCES.txt'
+[1.108s] writing manifest file '../build/p1/p1.egg-info/SOURCES.txt'
+[1.109s] running build
+[1.109s] running build_py
+[1.109s] running install
+[1.110s] running install_lib
+[1.111s] running install_data
+[1.112s] running install_egg_info
+[1.114s] removing '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages/p1-0.0.0-py3.8.egg-info' (and everything under it)
+[1.115s] Copying ../build/p1/p1.egg-info to /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages/p1-0.0.0-py3.8.egg-info
+[1.125s] running install_scripts
+[1.138s] Installing controller script to /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/p1
+[1.139s] writing list of installed files to '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/install.log'
+[1.156s] Invoked command in '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/p1' returned '0': PYTHONPATH=/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/p1 build --build-base /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/build install --prefix /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/p1 --record /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/p1/install.log --single-version-externally-managed

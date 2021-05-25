@@ -9,7 +9,9 @@ build/lab2/lab2.egg-info/requires.txt
 build/lab2/lab2.egg-info/top_level.txt
 build/lab2/lab2.egg-info/zip-safe
 lab2/__init__.py
-launch/lab2.launch.py
+launch/lab2_dynamic.launch.py
+launch/lab2_rviz.launch.py
+launch/lab2_static.launch.py
 resource/lab2
 test/test_copyright.py
 test/test_flake8.py
@@ -17,3 +19,4 @@ test/test_pep257.py
 urdf/URDF.yaml
 urdf/myrobot.rviz
 urdf/myrobot.urdf.xacro.xml
+urdf/myrobot_dynamic.urdf.xacro.xml

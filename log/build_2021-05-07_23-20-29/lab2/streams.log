@@ -1,0 +1,24 @@
+[0.616s] Invoking command in '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab2': PYTHONPATH=/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2 --uninstall --editable --build-directory /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab2/build
+[0.774s] running develop
+[0.879s] Invoked command in '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab2' returned '0': PYTHONPATH=/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2 --uninstall --editable --build-directory /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab2/build
+[0.879s] Invoking command in '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/lab2': PYTHONPATH=/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab2 build --build-base /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab2/build install --prefix /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2 --record /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab2/install.log --single-version-externally-managed
+[1.016s] running egg_info
+[1.016s] writing ../build/lab2/lab2.egg-info/PKG-INFO
+[1.017s] writing dependency_links to ../build/lab2/lab2.egg-info/dependency_links.txt
+[1.017s] writing entry points to ../build/lab2/lab2.egg-info/entry_points.txt
+[1.017s] writing requirements to ../build/lab2/lab2.egg-info/requires.txt
+[1.017s] writing top-level names to ../build/lab2/lab2.egg-info/top_level.txt
+[1.039s] reading manifest file '../build/lab2/lab2.egg-info/SOURCES.txt'
+[1.040s] writing manifest file '../build/lab2/lab2.egg-info/SOURCES.txt'
+[1.040s] running build
+[1.040s] running build_py
+[1.040s] running install
+[1.040s] running install_lib
+[1.041s] running install_data
+[1.042s] running install_egg_info
+[1.043s] removing '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2/lib/python3.8/site-packages/lab2-0.0.0-py3.8.egg-info' (and everything under it)
+[1.043s] Copying ../build/lab2/lab2.egg-info to /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2/lib/python3.8/site-packages/lab2-0.0.0-py3.8.egg-info
+[1.043s] running install_scripts
+[1.055s] Installing state_publisher script to /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2/lib/lab2
+[1.055s] writing list of installed files to '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab2/install.log'
+[1.068s] Invoked command in '/home/pdabrow1/dev_ws/src/dabrowski_synowiec/lab2' returned '0': PYTHONPATH=/home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab2 build --build-base /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab2/build install --prefix /home/pdabrow1/dev_ws/src/dabrowski_synowiec/install/lab2 --record /home/pdabrow1/dev_ws/src/dabrowski_synowiec/build/lab2/install.log --single-version-externally-managed
